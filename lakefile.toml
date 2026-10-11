@@ -1,0 +1,16 @@
+﻿name = "lean-proof-engineering-portfolio"
+defaultTargets = ["LeanProofEngineeringPortfolio"]
+
+[leanOptions]
+pp.unicode.fun = true
+autoImplicit = false
+relaxedAutoImplicit = false
+weak.linter.style.longLine = true
+
+[[require]]
+name = "mathlib"
+git = "https://github.com/leanprover-community/mathlib4.git"
+rev = "v4.26.0"
+
+[[lean_lib]]
+name = "LeanProofEngineeringPortfolio"
